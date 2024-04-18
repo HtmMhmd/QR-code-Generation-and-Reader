@@ -14,13 +14,13 @@ This repository contains packages for QR code generation and reading in Python p
 - [Methods Testing](#methods-testing)
     - [qrcode reader test code](#1-qrcode-reader-test-code)
     - [qrcode generator test code](#2-qrcode-generator-test-code)
-
+---
 ## Introduction
 
 The QR Code Generation and Reader packages provide a convenient way to generate and read QR codes in your applications.
 
 QR codes are two-dimensional barcodes that can store various types of data, such as URLs, text, or contact information.
-
+---
 ## Usage
 
 Once cloned, you can use the QR Code Generation and Reader packages in your projects. The packages provide simple and intuitive APIs for generating QR codes and reading them.
@@ -51,7 +51,7 @@ generator = QRCodeGenerator()
 qr_code_image = generator.generate_qr_code(data="Hello, World!") 
 ```
 This method returns an image object representing the QR code.
-
+---
 ## Code Examples
 
 Here are some code examples to get you started:
@@ -86,6 +86,7 @@ data = "Hello World"
 # Generate the QR code using the QRCodeGenerator object
 qr.generate_qr_code(data)
 ```
+---
 # Methods Testing
 we are providing a test code which run the program as follows:
 ## Methods Testing
@@ -104,6 +105,3 @@ releases the VideoCapture object and closes the windows.
 
 - This [code](./qr_generator/qr%20generator%20tester.py) prompts the user for a string, generates a QR code from it using `generate_qr_code` method, and then prints out the decoded string. The generated QR code is saved as `my_qr_code.png`.
     
-=======
-A generation and reading qrcode project
->>>>>>> 959b9fd886759e84797d809ce6424a2d925fec73
