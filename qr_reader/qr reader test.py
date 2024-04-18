@@ -14,14 +14,12 @@ while True:
 
     # Call the read_qr_code function with the frame
     QR = reader.read_qr_code(image=frame)
-
+    
     try:
         # Loop through each detected QR code
         for qr_index in range(len(QR[0])):
             decoded_content = QR[0][qr_index]  # Get the decoded content of the QR code
             bounding_box = QR[1][qr_index]  # Get the bounding box of the QR code
-            #print("\nDecoded Content:", decoded_content)
-            #print("\nBounding Box:", bounding_box)
             x_1, y_1, x_2, y_2  = np.uint16(bounding_box['bbox_xyxy'])
             # Draw a rectangle around the QR code
             cv2.rectangle(frame, (x_1, y_1), (x_2, y_2), (0, 255, 0), 2)

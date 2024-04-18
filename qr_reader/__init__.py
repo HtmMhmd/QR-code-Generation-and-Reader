@@ -1,0 +1,1 @@
+from .QRreader.QRCodeReader import QRCodeReader
