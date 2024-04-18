@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # QR Code Generation and Reader
 
 This repository contains packages for QR code generation and reading in Python programming languages.
