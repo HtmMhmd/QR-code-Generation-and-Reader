@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # QR Code Generation and Reader
 
 This repository contains packages for QR code generation and reading in Python programming languages.
@@ -104,3 +105,6 @@ releases the VideoCapture object and closes the windows.
 
 - This [code](./qr_generator/qr%20generator%20tester.py) prompts the user for a string, generates a QR code from it using `generate_qr_code` method, and then prints out the decoded string. The generated QR code is saved as `my_qr_code.png`.
     
+=======
+A generation and reading qrcode project
+>>>>>>> 959b9fd886759e84797d809ce6424a2d925fec73
