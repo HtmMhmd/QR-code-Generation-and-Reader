@@ -1,6 +1,7 @@
 # QR Code Generation and Reader
 
 This repository contains packages for QR code generation and reading in Python programming languages.
+![image](https://github.com/HtmMhmd/QR-code-Generation-and-Reader/assets/112731299/d5c5dd60-9863-49c4-8d71-acea2b3eb4a6)
 
 ## Table of Contents
 
